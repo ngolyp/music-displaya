@@ -1,0 +1,17 @@
+<div class="detail">
+<nav>
+ <button class="button button1" *ngFor="let item of mysongs; let i=index" (click) = "onClickMe(i)">{{item.songName}}</button>
+ </nav>
+ <div *ngIf="goodToGo" class="gridArea">
+     <div class ="imgArea common">   
+         <img src="{{song.picture}}" alt="" height="100" width="100">
+    </div>
+    <div class="listArea common">
+        <p><strong>Song Name:</strong> {{song.songName}} </p>
+        <p><strong>Artist:</strong> {{song.artist}}</p>
+        <p><strong>Genre:</strong> {{song.genre}}</p>
+        <p><strong>Year:</strong> {{song.year}}</p>
+        </div>
+</div>
+</div>
+

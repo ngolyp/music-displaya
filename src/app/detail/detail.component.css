@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+button {
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) 
+{  
+  img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .detail {
+    background-color: #3D9970;
+  }
+.gridArea {  
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "imgArea" 
+    "listArea";
+    grid-gap:10px; 
+  }
+
+    .common {
+        background-color: #eee; 
+        border: thick solid #70CCA3;
+        border-radius: 2px;
+        padding: 15px;
+        margin: 20px 50px 0px 50px;
+    }
+
+    .imgArea {
+        grid-area: imgArea;
+        text-align: center;
+    }
+
+    .listArea {
+        grid-area:listArea;
+        line-height: 200%; 
+    }
+
+    .listArea p {
+      font-size: 0.8rem;
+      line-height: 1rem;
+    }
+
+    .button {
+      background-color: #eee;
+      border: none;
+      color:#333;
+       padding: 10px 0px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 10px;
+      font-weight: bolder;
+      /* margin: 0% 1px; */
+      -webkit-transition-duration: 0.4s; 
+      transition-duration: 0.4s;
+      width: 25%;
+      border-radius: 12px;
+    }
+
+    }
+
+    @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) { 
+  img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .detail {
+    background-color: #3D9970;
+  }
+.gridArea {  
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "imgArea" 
+    "listArea";
+    grid-gap:10px; 
+  }
+
+    .common {
+        background-color: #eee; 
+        border: thick solid #70CCA3;
+        border-radius: 2px;
+        padding: 15px;
+        margin: 20px 50px 0px 50px;
+    }
+
+    .imgArea {
+        grid-area: imgArea;
+        text-align: center;
+    }
+
+    .listArea {
+        grid-area:listArea;
+        line-height: 200%; 
+    }
+
+    .listArea p {
+      font-size: 0.8rem;
+      line-height: 1rem;
+    }
+
+    .button {
+      background-color: #eee;
+      border: none;
+      color:#333;
+       padding: 10px 0px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 10px;
+      font-weight: bolder;
+      /* margin: 0% 1px; */
+      -webkit-transition-duration: 0.4s; 
+      transition-duration: 0.4s;
+      width: 25%;
+      border-radius: 12px;
+    }
+ }
+
+    @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) 
+{ 
+  img {
+    height: 150px;
+    width: 150px;
+  }
+    .gridArea {  
+        display:grid;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "imgArea listArea";
+        grid-gap:10px; }
+    
+        .common {
+          background-color: #eee; 
+          border: thick solid #70CCA3;
+          border-radius: 2px;
+          padding: 15px;
+          margin: 20px 20px 0px 20px;
+      }
+  
+      .imgArea {
+          grid-area: imgArea;
+          text-align: center;
+      }
+  
+      .listArea {
+          grid-area:listArea;
+          line-height: 200%; 
+      }
+  
+      .listArea p {
+        font-size: 0.8rem;
+        line-height: 1rem;
+      }
+    
+        .button {
+          background-color: #eee;
+          border: none;
+          color:#333;
+           padding: 10px 0px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 10px;
+          font-weight: bolder;
+          /* margin: 0% 1px; */
+          -webkit-transition-duration: 0.4s; 
+          transition-duration: 0.4s;
+          width: 25%;
+          border-radius: 12px;
+        }
+
+        .button1:hover {
+          background-color: #eee;
+          color: #333;
+          font-size: 10px;
+        }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) { 
+  img {
+    height: 150px;
+    width: 150px;
+  }
+    .gridArea {  
+        display:grid;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "imgArea listArea";
+        grid-gap:10px; }
+    
+        .common {
+          background-color: #eee; 
+          border: thick solid #70CCA3;
+          border-radius: 2px;
+          padding: 15px;
+          margin: 20px 20px 0px 20px;
+      }
+  
+      .imgArea {
+          grid-area: imgArea;
+          text-align: center;
+      }
+  
+      .listArea {
+          grid-area:listArea;
+          line-height: 200%; 
+      }
+  
+      .listArea p {
+        font-size: 0.8rem;
+        line-height: 1rem;
+      }
+    
+        .button {
+          background-color: #eee;
+          border: none;
+          color:#333;
+           padding: 10px 0px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 10px;
+          font-weight: bolder;
+          /* margin: 0% 1px; */
+          -webkit-transition-duration: 0.4s; 
+          transition-duration: 0.4s;
+          width: 25%;
+          border-radius: 12px;
+        }
+
+        .button1:hover {
+          background-color: #eee;
+          color: #333;
+          font-size: 10px;
+        }
+}
+
+@media only screen 
+and (min-device-width : 813px) {
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.detail {
+  background-color: #3D9970;
+}
+.gridArea {  
+  display:grid;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "imgArea listArea";
+  /* grid-gap: 10px;  */
+}
+
+  .common {
+      background-color: #eee; 
+      border: thick solid #70CCA3;
+      border-radius: 2px;
+      padding: 30px;
+      margin: 20px;
+  }
+
+  .imgArea {
+      grid-area: imgArea;
+      text-align: center;
+  }
+
+  .listArea {
+      grid-area:listArea; 
+  }
+
+  .listArea p {
+    line-height: 1.6rem;
+    /* margin: 1.6% 0%; */
+  }
+
+
+
+  .button {
+      background-color: #4CAF50;
+      border: none;
+      color:#eee;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 0% 1%;
+      -webkit-transition-duration: 0.4s; 
+      transition-duration: 0.4s;
+      cursor: pointer;
+      width: 23%;
+    }
+    
+    .button1 {
+      background-color: #eee; 
+      color: #333; 
+    }
+    
+    .button1:hover {
+      background-color: #70CCA3;
+      color: #eee;
+      font-size: 1.5rem;
+    }
+
+  }
